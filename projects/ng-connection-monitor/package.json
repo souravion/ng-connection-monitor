@@ -12,12 +12,12 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/souravion/ng-network-status"
+    "url": "https://github.com/souravion/ng-connection-monitor"
   },
   "bugs": {
-    "url": "https://github.com/souravion/ng-network-status/issues"
+    "url": "https://github.com/souravion/ng-connection-monitor/issues"
   },
-  "homepage": "https://github.com/souravion/ng-network-status/blob/main/README.md",
+  "homepage": "https://github.com/souravion/ng-connection-monitor/blob/main/README.md",
   "keywords": [
   "angular",
   "network",
