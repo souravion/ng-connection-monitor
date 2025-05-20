@@ -1,0 +1,39 @@
+{
+  "name": "ng-connection-monitor",
+  "version": "0.0.1",
+  "description": "A lightweight Angular service to detect real internet connection using a backend ping, not navigator.onLine.",
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/souravion/ng-network-status"
+  },
+  "bugs": {
+    "url": "https://github.com/souravion/ng-network-status/issues"
+  },
+  "homepage": "https://github.com/souravion/ng-network-status/blob/main/README.md",
+  "keywords": [
+  "angular",
+  "network",
+  "network-status",
+  "internet-status",
+  "offline-detection",
+  "online-status",
+  "rxjs",
+  "connectivity",
+  "network-check",
+  "ping-service",
+  "angular-library",
+  "web-app-tools",
+  "frontend",
+  "angular-service",
+  "angular-connectivity",
+  "real-connection"
+]
+}

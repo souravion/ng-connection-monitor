@@ -3,5 +3,41 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "ng-connection-monitor": {
+      "projectType": "library",
+      "root": "projects/ng-connection-monitor",
+      "sourceRoot": "projects/ng-connection-monitor/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ng-connection-monitor/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-connection-monitor/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng-connection-monitor/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/ng-connection-monitor/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "35df4080-106b-4675-9821-9c3919c66ea3"
   }
 }
