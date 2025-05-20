@@ -60,6 +60,14 @@ export class AppComponent {
   }
 }
 ```
+## ⚙️ Backend Ping Server
+
+To accurately detect real internet connectivity, this library pings a backend server endpoint.
+
+You can use the [my-ping-server](https://github.com/souravion/my-ping-server) repository as a ready-to-use lightweight ping backend.
+
+Make sure to set the `pingUrl` in your app to point to this server's `/ping` endpoint for reliable network status checks.
+
 ## 🧪 How It Works
 - Starts a timer loop every 3 seconds
 
